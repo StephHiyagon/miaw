@@ -14,21 +14,16 @@ div.fondo{
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  /*margin:0 10px;*/
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
   div.fondo{
     background-image: url("../assets/img/dawn.png");
-    margin:0 auto;
-    width:80vw;
   }
 }
 
 @media screen and (max-width:650px){
   div.fondo{
     background-image: url("../assets/img/maxresdefault.jpg");
-    margin:0 auto;
-    width:60vw;
   }
 }
